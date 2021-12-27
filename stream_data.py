@@ -16,7 +16,7 @@ def Stream():
     
         df = yf.download(
         tickers = ["ETH-USD", "BTC-USD","XRP-USD","XLM-USD","LTC-USD","PA=F","GC=F","^GSPC","^N225","NVDA","AMD"],
-        start = "2016-01-02",
+        start = "2017-01-02",
         end = str(date.today()),
         interval = "1d"    
         )
